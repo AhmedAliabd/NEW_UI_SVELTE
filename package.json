@@ -11,6 +11,7 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write ."
 	},
+	"proxy": "http://localhost:5000/",
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
@@ -30,6 +31,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"axios": "^0.27.2",
 		"daisyui": "^2.31.0"
 	}
 }
