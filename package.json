@@ -32,6 +32,8 @@
 	"type": "module",
 	"dependencies": {
 		"axios": "^0.27.2",
-		"daisyui": "^2.31.0"
+		"daisyui": "^2.31.0",
+		"svelte-navigator": "^3.2.2",
+		"svelte-routing": "^1.6.0"
 	}
 }

@@ -1,5 +1,2 @@
-<script>
-    import Login from "../components/user/Login.svelte"
-</script>
 
-<Login/>
+<h1>Welcome to LSI new UI</h1>

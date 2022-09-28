@@ -1,5 +1,9 @@
 <script>
     import {login} from "../../features/authServices.js"
+    
+    import { goto } from '$app/navigation';
+
+
     let email = "";
     let password = "";
     let errorMsg = ""
@@ -9,7 +13,7 @@
         //need some serliztion on the email and password
         try{
           await login({email, password})
-          
+          goto("/")
         }catch(error){
             errorMsg =
                 (error.response && error.response.data && error.response.data.message) ||
